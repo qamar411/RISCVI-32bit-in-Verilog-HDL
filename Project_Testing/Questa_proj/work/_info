@@ -13,6 +13,7 @@ R0
 R0
 R0
 R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -22,10 +23,10 @@ R0
 cModel Technology
 d/home/asmamohsin/intelFPGA/21.1/questa_fse/bin
 T_opt
-!s110 1700047111
-VED2jln]V>Rj]F@T_G7jRc0
+!s110 1700048033
+V>@:Hb>bGdMcXP4e3Vz<O`0
 04 8 4 work RV32I_tb fast 0
-=8-000ae431a4f1-6554a906-e9249-c28d9
+=9-000ae431a4f1-6554aca1-ae048-c28d9
 !s124 OEM10U68 
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
@@ -33,7 +34,7 @@ n@_opt
 OL;O;2021.2;73
 vALU
 Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1700047094
+Z3 !s110 1700048027
 !i10b 1
 !s100 eTb1iLkBoocH=QRCgHBBz0
 I^Aaa0zFcKijl:2>^HndWJ3
@@ -42,14 +43,14 @@ Z4 d/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/R
 Z5 w1700028882
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU.sv
-!i122 361
+!i122 387
 L0 7 31
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OL;L;2021.2;73
 r1
 !s85 0
 31
-Z8 !s108 1700047094.000000
+Z8 !s108 1700048027.000000
 !s107 /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU.sv|
 !i113 0
@@ -67,7 +68,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv
-!i122 362
+!i122 388
 Z10 L0 9 9
 R6
 R7
@@ -92,7 +93,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Branch_Comparator.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Branch_Comparator.sv
-!i122 364
+!i122 390
 L0 8 12
 R6
 R7
@@ -117,7 +118,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Branch_Controller.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Branch_Controller.sv
-!i122 365
+!i122 391
 L0 5 33
 R6
 R7
@@ -139,7 +140,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Control_Logic.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Control_Logic.v
-!i122 366
+!i122 392
 L0 1 136
 R6
 R7
@@ -162,7 +163,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Dec_Control.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Dec_Control.v
-!i122 367
+!i122 393
 L0 11 173
 R6
 R7
@@ -187,7 +188,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Decompressor.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Decompressor.sv
-!i122 368
+!i122 394
 L0 10 96
 R6
 R7
@@ -212,7 +213,7 @@ R4
 w1700032420
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/DMEM.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/DMEM.sv
-!i122 369
+!i122 395
 L0 9 89
 R6
 R7
@@ -235,7 +236,7 @@ R4
 w1700046454
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/EXE.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/EXE.v
-!i122 370
+!i122 396
 L0 1 96
 R6
 R7
@@ -250,7 +251,7 @@ R11
 R1
 n@e@x@e
 vForwarding_Unit
-Z12 !s110 1700047095
+R3
 !i10b 1
 !s100 QCJdFZVoW:fiL^`>XHgT@1
 Ik5hl?G=9<[:0UCD6D?RY82
@@ -258,14 +259,14 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v
-!i122 371
+!i122 397
 L0 1 31
 R6
 R7
 r1
 !s85 0
 31
-Z13 !s108 1700047095.000000
+R8
 !s107 /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v|
 !i113 0
@@ -273,7 +274,7 @@ R11
 R1
 n@forwarding_@unit
 vHazard_Controller
-R12
+Z12 !s110 1700048028
 !i10b 1
 !s100 @68<]ULE1AneWPSnY7I=:3
 I?b;gNR?SIn_4EHTSPH[7=2
@@ -281,14 +282,14 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v
-!i122 372
+!i122 398
 L0 1 18
 R6
 R7
 r1
 !s85 0
 31
-R13
+R8
 !s107 /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v|
 !i113 0
@@ -306,14 +307,14 @@ R4
 w1700046624
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ID.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ID.sv
-!i122 373
+!i122 399
 L0 1 103
 R6
 R7
 r1
 !s85 0
 31
-R13
+Z13 !s108 1700048028.000000
 !s107 /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ID.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ID.sv|
 !i113 0
@@ -331,7 +332,7 @@ R4
 w1700046431
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IF.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IF.sv
-!i122 374
+!i122 400
 L0 1 66
 R6
 R7
@@ -356,7 +357,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IMEM.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IMEM.sv
-!i122 375
+!i122 401
 L0 11 14
 R6
 R7
@@ -379,7 +380,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ImmGen.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ImmGen.v
-!i122 376
+!i122 402
 L0 7 25
 R6
 R7
@@ -402,7 +403,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/MEM.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/MEM.v
-!i122 377
+!i122 403
 L0 1 49
 R6
 R7
@@ -425,7 +426,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux2to1.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux2to1.v
-!i122 378
+!i122 404
 L0 1 21
 R6
 R7
@@ -447,7 +448,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux3to1 .v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux3to1 .v
-!i122 379
+!i122 405
 L0 1 24
 R6
 R7
@@ -469,7 +470,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux4to1.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux4to1.v
-!i122 380
+!i122 406
 L0 1 27
 R6
 R7
@@ -491,7 +492,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PC.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PC.v
-!i122 381
+!i122 407
 L0 5 18
 R6
 R7
@@ -516,7 +517,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PCAdder.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PCAdder.sv
-!i122 382
+!i122 408
 R10
 R6
 R7
@@ -541,7 +542,7 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RegFile.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RegFile.sv
-!i122 383
+!i122 409
 L0 10 52
 R6
 R7
@@ -566,7 +567,7 @@ R4
 R5
 Z14 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ATS-Lib.svh
 Z15 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ATS-Lib.svh
-!i122 363
+!i122 389
 L0 25 17
 R6
 R7
@@ -590,7 +591,7 @@ R4
 R5
 R14
 R15
-!i122 363
+!i122 389
 L0 44 17
 R6
 R7
@@ -614,7 +615,7 @@ R4
 R5
 R14
 R15
-!i122 363
+!i122 389
 L0 64 21
 R6
 R7
@@ -638,7 +639,7 @@ R4
 R5
 R14
 R15
-!i122 363
+!i122 389
 L0 10 13
 R6
 R7
@@ -662,7 +663,7 @@ R4
 w1700046929
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RV32I.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RV32I.sv
-!i122 384
+!i122 410
 L0 2 324
 R6
 R7
@@ -680,14 +681,14 @@ vRV32I_tb
 R2
 R12
 !i10b 1
-!s100 2KBRYGm9gzJQb@]dAz;CF2
-I_hU?G9N<XYVYCR?QWLSOf1
+!s100 ?^Yfl[[B2=7Zb=_`IjAbE0
+IlnB96ZZgZd1k0;<Jjf55V0
 S1
 R4
-w1700047091
+w1700048021
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RV32I_tb.sv
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RV32I_tb.sv
-!i122 385
+!i122 411
 L0 3 145
 R6
 R7
@@ -702,7 +703,7 @@ R9
 R1
 n@r@v32@i_tb
 vWB
-!s110 1700047096
+R12
 !i10b 1
 !s100 YFahlY;g?b>L3ziXSGK0z2
 IX1^W=QY^lNh1JJWQKMGlB2
@@ -710,14 +711,14 @@ R4
 R5
 8/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v
 F/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v
-!i122 386
+!i122 412
 L0 1 25
 R6
 R7
 r1
 !s85 0
 31
-!s108 1700047096.000000
+R13
 !s107 /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v|
 !i113 0
