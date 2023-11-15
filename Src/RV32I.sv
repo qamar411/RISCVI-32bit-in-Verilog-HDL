@@ -146,7 +146,7 @@ module RV32I (
     wire BSel_exe;
 
     wire [190:0] ID_EXE_in;
-    assign ID_EXE_in = Branch_hazard_id ? (191'b0) : 
+    assign ID_EXE_in = Branch_hazard_id ? (191'd0) : 
                                          ({pc_current_id,pc_adder_out_id,fun3_id,fun7_id[0],fun7_id[5],rdata1_id, rdata2_id, Imm_id, ASel_id, BSel_id, ALUop_id, rs1_id, rs2_id,rd_id, RegWen_id, MemWrite_id, MemRead_id, WBSel_id, Branch_id, Jump_id});
    
    
