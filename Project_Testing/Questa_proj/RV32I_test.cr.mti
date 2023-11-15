@@ -19,19 +19,19 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	Branch_Comparator
 
-} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v
-Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module WB
-
-Top level modules:
-	WB
-
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RV32I.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RV32I.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module RV32I
 
 Top level modules:
 	RV32I
+
+} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/WB.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module WB
+
+Top level modules:
+	WB
 
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RegFile.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/RegFile.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
@@ -57,6 +57,13 @@ Top level modules:
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/defines.svh {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/defines.svh
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 
+} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Forwarding_Unit
+
+Top level modules:
+	Forwarding_Unit
+
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux4to1.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/mux4to1.v
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module mux4to1
@@ -71,12 +78,12 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	EXE
 
-} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Forwarding_Unit.v
+} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IMEM.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IMEM.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module Forwarding_Unit
+-- Compiling module IMEM
 
 Top level modules:
-	Forwarding_Unit
+	IMEM
 
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PC.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PC.v
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
@@ -85,19 +92,20 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	PC
 
-} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IMEM.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/IMEM.sv
-Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module IMEM
-
-Top level modules:
-	IMEM
-
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Branch_Controller.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Branch_Controller.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module branch_controller
 
 Top level modules:
 	branch_controller
+
+} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv {2 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ALU_Control
+** Warning: /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv(16): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	ALU_Control
 
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ImmGen.v {2 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ImmGen.v
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
@@ -109,21 +117,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	ImmGen
 
-} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv {2 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv
-Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module ALU_Control
-** Warning: /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU_Control.sv(16): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-
-Top level modules:
-	ALU_Control
-
-} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PCAdder.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PCAdder.sv
-Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module PCAdder
-
-Top level modules:
-	PCAdder
-
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Control_Logic.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Control_Logic.v
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module Control_Logic
@@ -131,12 +124,12 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	Control_Logic
 
-} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/MEM.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/MEM.v
+} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PCAdder.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/PCAdder.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module MEM
+-- Compiling module PCAdder
 
 Top level modules:
-	MEM
+	PCAdder
 
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ATS-Lib.svh {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ATS-Lib.svh
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
@@ -150,6 +143,13 @@ Top level modules:
 	register_async_rst
 	register_sync_rst
 	register_w_enable
+
+} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/MEM.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/MEM.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module MEM
+
+Top level modules:
+	MEM
 
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ID.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ID.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
@@ -172,18 +172,18 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	Dec_Control
 
-} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v
-Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module Hazard_Controller
-
-Top level modules:
-	Hazard_Controller
-
 } {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU.sv {1 {vlog -work work -vopt -sv -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/ALU.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module ALU
 
 Top level modules:
 	ALU
+
+} {} {}} /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v {1 {vlog -work work -vopt -stats=none /home/asmamohsin/Desktop/QamarMoavia/My_Work/RISCV_Processor/RV32I/5_Stage/RV32/RISCVI-32bit-in-Verilog-HDL/Src/Hazard_Controller.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Hazard_Controller
+
+Top level modules:
+	Hazard_Controller
 
 } {} {}}
