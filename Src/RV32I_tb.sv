@@ -13,7 +13,7 @@ reg clk ,rst_n;
 	reg [`RV_RF_WIDTH-1:0] ref_regfile [`RV_RF_DEPTH-1:0];
 	reg [4:0]  RF_mismatch = 0;
 	reg [31:0] MEM_mismatch = 0;
-	parameter string TEST_FOLDER = "Matrix_Mul4x4"; // Change this parameter for different test folders
+	parameter string TEST_FOLDER = "Image_Processing"; // Change this parameter for different test folders
 
 
 initial
