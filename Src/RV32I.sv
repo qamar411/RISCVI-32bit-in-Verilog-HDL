@@ -146,7 +146,7 @@ module RV32I (
     wire BSel_exe;
 
     wire [190:0] ID_EXE_in;
-    assign ID_EXE_in = Branch_hazard_id ? (191'd0) : 
+    assign ID_EXE_in = (Branch_hazard_id | Load_hazard_id) ? (191'd0) : 
                                          ({pc_current_id,pc_adder_out_id,fun3_id,fun7_id[0],fun7_id[5],rdata1_id, rdata2_id, Imm_id, ASel_id, BSel_id, ALUop_id, rs1_id, rs2_id,rd_id, RegWen_id, MemWrite_id, MemRead_id, WBSel_id, Branch_id, Jump_id});
    
    
@@ -157,7 +157,7 @@ module RV32I (
         .clk(clk),
         .rst_l(rst_n),        
         .din(ID_EXE_in),     // Output from IF stage
-        .en(~Load_hazard_id),                
+        .en(1),                
         .dout({pc_current_exe,pc_adder_out_exe,fun3_exe,fun7_0_exe,fun7_5_exe,rdata1_exe, rdata2_exe, Imm_exe, ASel_exe, BSel_exe, ALUop_exe,  rs1_exe, rs2_exe, rd_exe, RegWen_exe, MemWrite_exe, MemRead_exe, WBSel_exe, Branch_exe, Jump_exe})   // Input to ID stage
     );
 
