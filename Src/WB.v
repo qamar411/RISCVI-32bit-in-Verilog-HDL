@@ -1,3 +1,7 @@
+ /*
+  * This module is designed by Qamar Moavia
+  * Its not currently being used in RV32I, as the wb selection mux is now in the MEM stage.
+  */
 module WB (
 
     input wire [31:0] alu_result_wb,
