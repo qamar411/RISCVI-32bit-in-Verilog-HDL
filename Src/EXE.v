@@ -1,7 +1,7 @@
 module EXE (
     input wire [31:0] rdata1_exe,
     input wire [31:0] rdata2_exe,
-    input wire [31:0] alu_result_mem,
+    input wire [31:0] result_mem,
     input wire [31:0] result_wb,
     input wire [31:0] pc_exe,
     input wire selA,      // selection logic at alu input A, coming from forwarding logic
@@ -31,7 +31,7 @@ module EXE (
     mux3to1 #(32) forwarding_mux_a (
         .sel(forward_rd1_exe),
         .in0(rdata1_exe),
-        .in1(alu_result_mem),
+        .in1(result_mem),
         .in2(result_wb),
         .out(rdata1_forwarded)
     );
@@ -40,7 +40,7 @@ module EXE (
     mux3to1 #(32) forwarding_mux_b (
         .sel(forward_rd2_exe),
         .in0(rdata2_exe),
-        .in1(alu_result_mem),
+        .in1(result_mem),
         .in2(result_wb),
         .out(rdata2_forwarded)
     );      

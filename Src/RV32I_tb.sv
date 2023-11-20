@@ -3,7 +3,7 @@
 module RV32I_tb;
 reg clk ,rst_n;
 
-//Instantiate Top Level processor module
+    //Instantiate Top Level processor module
 	RV32I dut(
 		.clk(clk),
 		.rst_n(!rst_n)
@@ -13,7 +13,7 @@ reg clk ,rst_n;
 	reg [`RV_RF_WIDTH-1:0] ref_regfile [`RV_RF_DEPTH-1:0];
 	reg [4:0]  RF_mismatch = 0;
 	reg [31:0] MEM_mismatch = 0;
-	parameter string TEST_FOLDER = "Image_Processing"; // Change this parameter for different test folders
+	parameter string TEST_FOLDER = "Sorting"; // Change this parameter for different test folders
 
 
 initial
@@ -28,6 +28,7 @@ begin
 	// Reading initial DMEM and Register file
 	$readmemh({ "../", TEST_FOLDER, "/", TEST_FOLDER, "_initial_MEM.s" }, dut.MEM_inst.DMEM_mem.dmem);
 	$readmemh({ "../", TEST_FOLDER, "/", TEST_FOLDER, "_register_initial.s" }, dut.ID_inst.RegFile_Dec.regfile);
+
 
 	// Saving final memory and register file content
 	$readmemh({ "../", TEST_FOLDER, "/", TEST_FOLDER, "_final_MEM.s" }, ref_dmem);
@@ -61,14 +62,12 @@ begin
 	$display ("");
 	for(integer i = 0; i < 32; i++)
 	begin
-		if(dut.ID_inst.RegFile_Dec.regfile[i] != ref_regfile[i])
-		begin
+		if(dut.ID_inst.RegFile_Dec.regfile[i] === ref_regfile[i])
+		$display("Success... RegFile[%d] = %d is equal to Ref_RegFile[%d] = %d", i, dut.ID_inst.RegFile_Dec.regfile[i],i,ref_regfile[i]);
+		else begin
 		$display("Error... RegFile[%d] = %d is not equal to Ref_RegFile[%d] = %d", i, dut.ID_inst.RegFile_Dec.regfile[i],i,ref_regfile[i]);
 		if(i>4)RF_mismatch = RF_mismatch + 1;
-		end
-		else
-		$display("Success... RegFile[%d] = %d is equal to Ref_RegFile[%d] = %d", i, dut.ID_inst.RegFile_Dec.regfile[i],i,ref_regfile[i]);
-		
+		end		
 	end
 	$display ("");
 	$display ("");
@@ -95,19 +94,19 @@ begin
 
 	for(integer i = 0; i < `RV_DMEM_DEPTH; i++)
 	begin
-		if(dut.MEM_inst.DMEM_mem.dmem[i] != ref_dmem[i])
+		if(dut.MEM_inst.DMEM_mem.dmem[i] === ref_dmem[i])
 		begin
+		$display("Success... DMEM[%d] = %d is     equal to Ref_DMEM[%d] = %d", i, dut.MEM_inst.DMEM_mem.dmem[i],i,ref_dmem[i]);
+		end		
+		else begin
 		$display("Error...   DMEM[%d] = %d is not equal to Ref_DMEM[%d] = %d", i, dut.MEM_inst.DMEM_mem.dmem[i],i,ref_dmem[i]);
 		RF_mismatch = RF_mismatch + 1;
 		end
-		else
-		begin
-		$display("Success... DMEM[%d] = %d is     equal to Ref_DMEM[%d] = %d", i, dut.MEM_inst.DMEM_mem.dmem[i],i,ref_dmem[i]);
-		end
+
 	end
 	$display ("");
 	$display ("");
-    if(MEM_mismatch == 0)
+    if(MEM_mismatch === 0)
 	begin
 		$display ("************************************************************");
 		$display ("********************* MEM Test Passed **********************");
@@ -141,7 +140,6 @@ end
 
 // $fwrite to write to a file in case we need HEX file directly 
 // Good idea in image processing tasks!
-
 
 
 endmodule

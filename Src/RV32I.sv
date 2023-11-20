@@ -163,7 +163,7 @@ module RV32I (
 
 // ------------------------------- EXE STAGE STARTS HERE ---------------------------------//
     // inputs from control unit
-    wire [31:0] alu_result_mem;
+    wire [31:0] result_mem;
     wire [1:0] forward_rd1_exe;
     wire [1:0] forward_rd2_exe;
     wire [31:0] rdata2_forwarded;
@@ -172,7 +172,7 @@ module RV32I (
     EXE EXE_inst (
         .rdata1_exe(rdata1_exe),
         .rdata2_exe(rdata2_exe),
-        .alu_result_mem(alu_result_mem),
+        .result_mem(result_mem),
         .result_wb(result_wb),
         .pc_exe(pc_current_exe),
         .selA(ASel_exe),
@@ -195,6 +195,7 @@ module RV32I (
     wire [31:0] pc_adder_out_mem;
     wire [31:0] rdata2_mem;
     wire [31:0] Imm_mem;
+    wire [31:0] alu_result_mem;
     wire MemRead_mem;
     wire MemWrite_mem;
     wire RegWen_mem;
@@ -237,35 +238,39 @@ module RV32I (
 
 // -------------------------------- MEM STAGE ENDS HERE ----------------------------------//
 
-    wire [31:0] alu_result_wb;
-    wire [31:0] dmem_out_wb;
-    wire [31:0] pc_adder_out_wb;
-    wire [31:0] Imm_wb;
-    wire [1:0]  WBSel_wb;
+    // wire [31:0] alu_result_wb;
+    // wire [31:0] dmem_out_wb;
+    // wire [31:0] pc_adder_out_wb;
+    // wire [31:0] Imm_wb;
+    // wire [1:0]  WBSel_wb;
+
+    // ************** result selection mux starts here *************** //
+    mux4to1 #(32) alu_in_A_mux (
+        .sel(WBSel_mem),
+        .in0(dmem_out_mem),        
+        .in1(alu_result_mem),
+        .in2(pc_adder_out_mem),
+        .in3(Imm_mem),
+        .out(result_mem)
+    );
+
+    // *************** result selection mux ends here **************** //    
 
     register_w_enable #(
-        .WIDTH(136)  
+        .WIDTH(38)  
     ) REG_MEM_WB (
         .clk(clk),
         .rst_l(rst_n),        
-        .din({alu_result_mem, dmem_out_mem, pc_adder_out_mem, Imm_mem,  rd_mem, RegWen_mem , WBSel_mem}),     // Output from IF stage
+        .din({result_mem,  rd_mem, RegWen_mem}),     // Output from IF stage
         .en(1'b1),                
-        .dout({alu_result_wb, dmem_out_wb, pc_adder_out_wb, Imm_wb,  rd_wb, RegWen_wb , WBSel_wb})   // Input to ID stage
+        .dout({result_wb,   rd_wb,  RegWen_wb})   // Input to ID stage
     );
 
 // --------------------------------- Wb STAGE ENDS HERE ----------------------------------//
-
-
-    // WB module instantiation
-    WB WB_inst (
-        .alu_result_wb(alu_result_wb),
-        .dmem_out_wb(dmem_out_wb),
-        .pc_adder_out_wb(pc_adder_out_wb),
-        .Imm_wb(Imm_wb),
-        .WBSel_wb(WBSel_wb),
-        .result_wb(result_wb)
-    );
-
+ /*
+  * Writing back the value to the register file in this stage
+  * Although Reg file is instantiated in ID stage. It get input write data frmo WB stage.
+  */
 // --------------------------------- WB STAGE ENDS HERE ----------------------------------//
 
 
